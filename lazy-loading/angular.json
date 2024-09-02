@@ -38,11 +38,13 @@
             ],
             "styles": [
               "src/styles.css"
+
             ],
             "scripts": []
           },
           "configurations": {
             "production": {
+              "sourceMap": true,
               "budgets": [
                 {
                   "type": "initial",

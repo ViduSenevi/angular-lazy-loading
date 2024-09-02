@@ -1,17 +1,15 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  selector: 'app-image-gallery',
+  templateUrl: './image-gallery.component.html',
+  styleUrl: './image-gallery.component.css'
 })
-export class AppComponent {
-  title = 'lazy-loading';
-
-   imageUrls: string[] = [];
+export class ImageGalleryComponent {
+  imageUrls: string[] = [];
 
   ngOnInit(): void {
-    this.loadImages();
+    // this.loadImages();
   }
 
   loadImages(): void {

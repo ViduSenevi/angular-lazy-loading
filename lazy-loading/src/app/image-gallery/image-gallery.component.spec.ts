@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WithLazyComponent } from './with-lazy.component';
+import { ImageGalleryComponent } from './image-gallery.component';
 
-describe('WithLazyComponent', () => {
-  let component: WithLazyComponent;
-  let fixture: ComponentFixture<WithLazyComponent>;
+describe('ImageGalleryComponent', () => {
+  let component: ImageGalleryComponent;
+  let fixture: ComponentFixture<ImageGalleryComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [WithLazyComponent]
+      declarations: [ImageGalleryComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(WithLazyComponent);
+    fixture = TestBed.createComponent(ImageGalleryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

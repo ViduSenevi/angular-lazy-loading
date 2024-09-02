@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { WithLazyComponent } from './with-lazy.component';
+import { ImageGalleryComponent } from './image-gallery.component';
 
-const routes: Routes = [{ path: '', component: WithLazyComponent }];
+const routes: Routes = [{ path: '', component: ImageGalleryComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class WithLazyRoutingModule { }
+export class ImageGalleryRoutingModule { }
