@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-image-gallery',
   templateUrl: './image-gallery.component.html',
-  styleUrl: './image-gallery.component.css'
+  styleUrls: ['./image-gallery.component.css']
 })
 export class ImageGalleryComponent {
   imageUrls: string[] = [];
@@ -40,6 +40,6 @@ export class ImageGalleryComponent {
       'https://images.unsplash.com/photo-1495020689067-958852a7765e',
       'https://images.unsplash.com/photo-1503985073337-3b60f7f703b8',
     ];
-    
+
   }
 }
